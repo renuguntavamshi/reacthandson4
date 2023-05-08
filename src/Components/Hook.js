@@ -3,6 +3,7 @@ import React,{useState} from  'react';
 function SimpleForm(){
     let [variable,setvariable]=useState("");
     let [newvariable,setnewvariable]=useState("");
+ 
 let inputfunc=(event)=>{
 let result=event.target.value;
 console.log(result);
