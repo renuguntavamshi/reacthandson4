@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 body{
   background-image:linear-gradient(rgb(143, 234, 254),rgb(237, 140, 140), rgb(211, 198, 198));
   background-size:cover;
@@ -48,4 +46,32 @@ input{
   border:2px solid brown;
   border-radius:10px;
   height:22px;
+}
+
+/*Start of navbar css*/
+
+#unorderedlist {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #095659;
+}
+#leftlistitem{
+  float: left;
+}
+#rightlistitem{
+  float:right;
+}
+#centerlistitem{
+  position: absolute;
+  left:50%;
+  transform: translateX(-50%);
+}
+.link{
+  text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
 }

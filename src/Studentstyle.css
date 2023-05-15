@@ -1,0 +1,40 @@
+.topheadingandbtn{
+    padding:20px;
+    }
+#addnewstudent{
+    float: right;
+}
+
+table{
+    background-color: white;
+    width:90%;
+ 
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+}
+th,td{
+  
+    text-align: right;
+}
+.name{
+    text-align: left;
+}
+form{
+    width: 50%;
+    height:80px;
+     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.submitbtn{
+    position: relative;
+    top:100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
